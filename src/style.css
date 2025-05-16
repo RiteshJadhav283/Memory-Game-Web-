@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://personacentral.com/wp-content/uploads/2016/01/Toyoi-8Bit-Odin-Sphere.gif') no-repeat center center fixed;
+    background-size: cover;
+    image-rendering: pixelated;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    image-rendering: pixelated;
+}
+
+.logo {
+
+    margin: 20px 0;
+    color: #209d6c;
+    text-shadow: 4px 4px 0 #305245, 8px 8px 0 #194248;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    image-rendering: pixelated;
+}
+.logo h2
+{
+    color: white;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.levels-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: 30px 0;
+    image-rendering: pixelated;
+}
+
+.level-box {
+    background-color: #305245;
+    border: 4px solid #209d6c;
+    padding: 10px 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+    image-rendering: pixelated;
+    position: relative;
+    overflow: hidden;
+}
+
+.level-box:hover {
+    background-color: #209d6c;
+    transform: scale(1.05);
+}
+
+.level-box.active {
+    background-color: #209d6c;
+    box-shadow: 0 0 10px #fff;
+}
+
+.level-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 5px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.level-difficulty {
+    font-size: 0.7rem;
+    color: #ddd;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.start-btn {
+    background-color: #209d6c;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    margin: 20px 0;
+    cursor: pointer;
+    border: 8px solid #305245;
+    box-shadow: 0 8px 0 #194248;
+    transition: all 0.1s;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    image-rendering: pixelated;
+    position: relative;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.start-btn:hover {
+    background-color: #1d8a60;
+}
+
+.start-btn:active {
+    transform: translateY(8px);
+    box-shadow: 0 0 0 #194248;
+}
+
+
+.level-box .pixel-corner {
+    width: 8px;
+    height: 8px;
+}
+
+.level-box .top-left {
+    top: -4px;
+    left: -4px;
+}
+
+.level-box .top-right {
+    top: -4px;
+    right: -4px;
+}
+
+.level-box .bottom-left {
+    bottom: -4px;
+    left: -4px;
+}
+
+.level-box .bottom-right {
+    bottom: -4px;
+    right: -4px;
+}
