@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Memory Card Game - Retro Style</title>
+  <link rel="stylesheet" href="level.css" />
+</head>
+<body>
+  <h1>🎮 Memory Card Game</h1>
+
+  <label for="difficulty">Select Difficulty:</label>
+  <select id="difficulty">
+    <option value="2">2 Pairs (Easy)</option>
+    <option value="3">3 Pairs</option>
+    <option value="4" selected>4 Pairs (Medium)</option>
+    <option value="5">5 Pairs</option>
+    <option value="6">6 Pairs</option>
+    <option value="7">7 Pairs</option>
+    <option value="8">8 Pairs</option>
+    <option value="9">9 Pairs</option>
+    <option value="10">10 Pairs (Hard)</option>
+  </select>
+
+  <button id="restartBtn">Restart Game</button>
+
+  <h2>⏱ Time: <span id="timer">0</span> s</h2>
+  <h2>⭐ Score: <span id="score">0</span></h2>
+
+  <div class="game-board" id="game-board"></div>
+
+  <script src="level.js"></script>
+</body>
+</html>
