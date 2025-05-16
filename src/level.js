@@ -1,14 +1,14 @@
 const allImages = [
-    '../Images/photos/pika.png',
-    '../Images/photos/poki2.png',
-    '../Images/photos/poki3.png',
-    '../Images/photos/poki4.png',
-    '../Images/photos/poki5.png',
-    '../Images/photos/poki6.png',
-    '../Images/photos/poki7.png',
-    '../Images/photos/poki8.png',
-    '../Images/photos/poki9.png',
-    '../Images/photos/poki10.png'
+    'Images/photos/pika.png',
+    'Images/photos/poki2.png',
+    'Images/photos/poki3.png',
+    'Images/photos/poki4.png',
+    'Images/photos/poki5.png',
+    'Images/photos/poki6.png',
+    'Images/photos/poki7.png',
+    'Images/photos/poki8.png',
+    'Images/photos/poki9.png',
+    'Images/photos/poki10.png'
   ];
   
   let flippedCards = [];
